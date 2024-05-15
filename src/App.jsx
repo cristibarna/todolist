@@ -4,6 +4,7 @@ import { NewTodoForm } from "./NewTodoForm";
 import { TodoList } from "./TodoList";
 import { Header } from "./Header";
 
+//App checked today - gg
 export default function App() {
   const [todos, setTodos] = useState(() => {
     const localValue = localStorage.getItem("ITEMS")
